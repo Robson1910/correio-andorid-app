@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinerLayout_id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1DCDC"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageView_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:autofillHints="@string/Correio"
+            android:contentDescription="@string/image_name"
+            android:textAlignment="center"
+            android:textColorHint="@color/purple_700"
+            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+        <TextView
+            android:id="@+id/Title_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="22sp"
+            android:text="@string/initial" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinerLayout_id3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/editTextCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/CEP"
+            android:ems="10"
+            android:hint="@string/CEP"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buscarCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BotaoBuscar" />
+
+        <TextView
+            android:id="@+id/textUf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/UF"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Cidade"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Bairro"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/CEP"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Endereco"
+            android:textAlignment="center"
+            android:textColor="#030C43"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

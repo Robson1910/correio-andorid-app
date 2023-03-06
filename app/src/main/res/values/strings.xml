@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CorreioAndroid</string>
+    <string name="image_name">Word</string>
+    <string name="initial">Correios API</string>
+    <string name="CEP">CEP</string>
+    <string name="Cidade">Cidade</string>
+    <string name="Bairro">Bairro</string>
+    <string name="Endereco">Endereço</string>
+    <string name="UF">UF</string>
+    <string name="BotaoBuscar">Buscar</string>
+    <string name="Correio">Correio</string>
+</resources>
